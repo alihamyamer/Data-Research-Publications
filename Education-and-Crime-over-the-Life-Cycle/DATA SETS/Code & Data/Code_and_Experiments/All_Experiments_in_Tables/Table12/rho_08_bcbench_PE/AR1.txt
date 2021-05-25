@@ -1,0 +1,6 @@
+0.936D0	! rho 1
+0.016D0	! vareps 1
+0.95D0	! rho 2
+0.010D0	! vareps 2
+0.945D0	! rho 3
+0.014D0	! vareps 3

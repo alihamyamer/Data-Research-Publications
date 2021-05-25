@@ -1,0 +1,11 @@
+  0.268136220022207         ! leisure_save(           1 )
+  5.764982342351388E-002    ! leisure_save(           2 )
+ -0.136679082695579         ! leisure_save(           3 )
+  0.759417228293835         ! leisure_save(           4 )
+   1.13518875914521         ! leisure_save(           5 )
+  -2.33873071047789         ! leisure_save(           6 )
+  -2.89708214115911         ! leisure_save(           7 )
+  -3.22881285939264         ! leisure_save(           8 )
+  -3.35200520166329         ! leisure_save(           9 )
+  -2.87883276685780         ! leisure_save(          10 )
+  

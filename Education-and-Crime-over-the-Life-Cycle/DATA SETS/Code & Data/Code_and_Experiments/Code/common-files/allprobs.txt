@@ -1,0 +1,1 @@
+.057d0 ! prob. of going to jail if only one crime is committed, it is 0.17 in Merlo et al (binary crime choice) - .057d0 if each crime state equals only one crime in the data

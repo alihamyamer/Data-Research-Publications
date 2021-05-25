@@ -1,0 +1,10 @@
+ 0.d0		! rescale(1) - no income for students
+ 1.d0	 	! rescale(2) - crime/nonrobbed
+ 0.9414d0   !0.8828d0 	! rescale(3) - crime/robbed- 0.9414d0 if each crime state is one crime only, 0.8828 if two crimes 
+ 1.d0		! rescale(4) - noncrime/nonrobbed
+ 0.9414d0   !0.8828d0	! rescale(5) - noncrime/robbed
+ 0.d0		! shrob(1) - no crime while in school
+ 0.0586d0   !0.1172d0 	! shrob(2) - crime committed - 0.0586d0 if one crime, 0.1172 if two crimes 
+ 0.0586d0   !0.1172d0	! shrob(3) - crime committed 
+ 0.d0		! shrob(4) - crime not committed
+ 0.d0		! shrob(5) - crime not committed 

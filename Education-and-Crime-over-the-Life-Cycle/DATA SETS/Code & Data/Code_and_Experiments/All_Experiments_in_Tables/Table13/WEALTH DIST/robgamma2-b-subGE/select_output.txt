@@ -1,0 +1,13 @@
+       Gross output                          303.65833
+       Net output                            184.00844
+       Average  wage                           3.13351
+       10 Percentile wage                      1.64278
+       90 Percentile wage                      5.61872
+       Aggregate Victimization rate            0.05235
+       Aggregate Crime rate                    0.03238
+       Aggregate Prison Costs                  0.51071
+      Average ex ante welfare                -26.74860
+      Cons. eq. of ex ante welfare             3.75000
+      Price of edu                     1       0.13485
+      Price of edu                     2       0.20071
+      Price of edu                     3       0.22895

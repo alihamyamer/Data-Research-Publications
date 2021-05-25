@@ -1,0 +1,12 @@
+ 0.15     ! wealthzero - share of agents with wealth <=0
+ 2.7      ! wealth/income ratio
+ 0.09     ! share of newborns with zero wealth
+ 1.27      ! average beq/medwage
+ 0.056    ! victim_agg - aggregate victimization rate
+0.53     ! LTHSjailed_agg - share of prisoners with LTHS
+ 0.0     ! Not used
+-6.330	  ! education regression coefficient 
+ 0.044	  ! AFQT regression coefficient
+-.710     ! linear age regression coefficient
+ 0.75	  ! Coefficient of variation for bequests
+ 25.2	  ! constant regression coefficient

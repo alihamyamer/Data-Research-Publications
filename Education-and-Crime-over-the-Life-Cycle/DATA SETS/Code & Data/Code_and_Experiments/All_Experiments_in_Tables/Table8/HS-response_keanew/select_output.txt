@@ -1,0 +1,8 @@
+       Gross output                          299.24961
+       Net output                            180.93020
+       Average  wage                           3.34605
+       10 Percentile wage                      1.81656
+       90 Percentile wage                      5.92600
+       Aggregate Victimization rate            0.04883
+       Aggregate Crime rate                    0.03074
+       Aggregate Prison Costs                  0.41904

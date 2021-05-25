@@ -1,0 +1,352 @@
+ ***********************************
+ Psychic costs for education HS: last two iterations
+             0.36             0.36             ability bin    1
+             0.36             0.36             ability bin    2
+             1.40             1.39             ability bin    3
+             3.92             3.92             ability bin    4
+             3.80             3.80             ability bin    5
+ Value of studying (mean, min, max, marginal):
+           -30.14           -39.23           -17.61           -26.59  bin  1
+           -27.58           -34.82           -16.13           -29.16  bin  2
+           -26.39           -33.28           -15.98           -30.18  bin  3
+           -25.20           -32.45           -14.93           -32.29  bin  4
+           -24.10           -31.55           -14.03           -31.25  bin  5
+ Value of working (mean, min, max, marginal):
+           -28.82           -33.45           -17.29           -26.23  bin  1
+           -27.05           -30.26           -16.21           -28.80  bin  2
+           -26.29           -29.12           -16.11           -28.78  bin  3
+           -25.76           -28.49           -15.67           -28.37  bin  4
+           -25.26           -27.81           -15.28           -27.46  bin  5
+ Psychic costs for education COL: last two iterations
+            -2.24            -2.24             ability bin    1
+            -2.79            -2.79             ability bin    2
+            -3.10            -3.10             ability bin    3
+            -2.91            -2.91             ability bin    4
+            -1.07            -1.12             ability bin    5
+ Value of studying (mean, min, max, marginal):
+           -47.10          -395.96           -15.73           -22.80  bin  1
+          -139.85          -395.52           -13.74           -18.12  bin  2
+          -183.93          -393.63           -13.35           -20.09  bin  3
+          -207.04          -392.63           -12.69           -20.33  bin  4
+          -209.92          -391.58           -12.19           -21.99  bin  5
+ Value of working (mean, min, max, marginal):
+           -25.00           -27.97           -16.76           -25.04  bin  1
+           -25.17           -27.93           -15.29           -20.91  bin  2
+           -24.43           -26.49           -15.14           -23.20  bin  3
+           -23.69           -25.59           -14.65           -23.24  bin  4
+           -22.84           -24.63           -14.36           -23.06  bin  5
+  
+ ***********************************
+ 15th wealth percentile of youngest            0.87391
+ % of youngest age group with wealth <=0       0.07280
+ Average assets in youngest age group          6.20532
+ Assets SD in youngest age group               6.96066
+ Median  assets in youngest age group          4.09733
+ Min asset level in youngest age group         0.00000
+ Max asset level in youngest age group        57.04320
+ % of tot. wealth held by youngest             0.00808
+ Share of wealth age 18-24                     0.00000
+ Average dropout earnings at age 16            1.18784
+  
+ ***********************************
+ Avg. assets in youngest age group cens.       3.13403
+  
+ ***********************************
+ Interest rate after tax and depr              0.04598
+ MRK after tax and depr                        0.04586
+ Discount factor                               0.96359
+ Borrowing constraint                         -0.48800
+ % of total popn with wealth <= 0              0.13499
+ % of NON studentl popn with wealth <= 0       0.13989
+       Wealth/Income                           2.66515
+       Average  wealth                        12.57327
+       Av. wealth under 35 / Av. wealth        0.23933
+       SD wealth                              14.39283
+       Median   wealth                         8.16534
+       Lowest   wealth                        -0.48800
+       Highest  wealth                       146.59499
+       Share of students on B.C., edu 1        0.00000
+       Share of students on B.C., edu 2        0.00000
+       Index of first top-coded guy               7399
+ ***********************************
+       Average  wage                           3.08433
+       SD wage                                 1.36236
+       Median   wage                           2.80737
+       10 Percentile wage                      1.63520
+       90 Percentile wage                      5.52227
+ ***********************************
+       Aggregate wealth                      741.68664
+       Aggregate capital stock               740.06849
+       Aggregate labor                       259.44047
+       Aggregate output                      301.05741
+       Net output                            183.10943
+       Normalization Factor - Constanta        0.80343
+ ***********************************
+       Av. consumption of students 1           1.70540
+       Av. consumption of students 2           2.06401
+ ***********************************
+ Av. wealth and ability for HS stud. and working HS dropouts
+           HS students, abil.bin      =    1   12.3036     -0.2512
+           HS students, abil.bin      =    2    8.1736     -0.0971
+           HS students, abil.bin      =    3    7.0413      0.0398
+           HS students, abil.bin      =    4    6.4468      0.1456
+           HS students, abil.bin      =    5    6.0165      0.2601
+                HS dropouts, abil.bin =    1    5.2118     -0.4643
+                HS dropouts, abil.bin =    2    0.6355     -0.1089
+                HS dropouts, abil.bin =    3    0.0879      0.0413
+                HS dropouts, abil.bin =    4    0.0000      0.1221
+                HS dropouts, abil.bin =    5    0.0000      0.2367
+ **********
+ Av. wealth and ability for Coll. stud. and working HS grads
+           College students, abil.bin =    1    9.6928     -0.2118
+           College students, abil.bin =    2   10.3448     -0.0469
+           College students, abil.bin =    3   10.3531      0.0503
+           College students, abil.bin =    4   10.0529      0.1487
+           College students, abil.bin =    5    7.8975      0.2620
+              HS graduates , abil.bin =    1    9.0732     -0.2549
+              HS graduates , abil.bin =    2    4.5638     -0.1007
+              HS graduates , abil.bin =    3    2.9970      0.0383
+              HS graduates , abil.bin =    4    1.5387      0.1445
+              HS graduates , abil.bin =    5   -0.1891      0.2586
+ ***********************************
+                            EDU group =    1
+    Av. consumption st_ind =     2       2.62972
+    Av. consumption st_ind =     3       2.55006
+    Av. consumption st_ind =     4       2.17637
+    Av. consumption st_ind =     5       2.17393
+    Av. consumption st_ind =     6       2.15418
+    Av. consumption st_ind =     7       1.95435
+    Av. consumption st_ind =     8       2.19377
+    Av. consumption st_ind =     9       2.10903
+    Av. consumption st_ind =    10       1.90685
+    Av. consumption st_ind =    11       1.90004
+ ***********
+  Av. cons., st_ind=4,  ability group =    1       2.14242
+  Av. cons., st_ind=4,  ability group =    2       2.22267
+  Av. cons., st_ind=4,  ability group =    3       2.30437
+  Av. cons., st_ind=4,  ability group =    4       2.34754
+  Av. cons., st_ind=4,  ability group =    5       2.50131
+ ***********
+    Edu=  1 Ab.Bin=  1 Av.Wage   1.94478
+    Edu=  1 Ab.Bin=  2 Av.Wage   2.36564
+    Edu=  1 Ab.Bin=  3 Av.Wage   2.81100
+    Edu=  1 Ab.Bin=  4 Av.Wage   4.68729
+    Edu=  1 Ab.Bin=  5 Av.Wage  11.11031
+ ***********
+Average earnings for st_ind =    2       2.41546
+Average ability for st_ind =     2      -0.23272
+ ***********
+Average earnings for st_ind =    4       2.16373
+Average ability for st_ind =     4      -0.34076
+ ***********
+Average earnings for st_ind =    6       1.89990
+Average ability for st_ind =     6      -0.15875
+ ***********
+Average earnings for st_ind =    8       1.83462
+Average ability for st_ind =     8      -0.32775
+ ***********
+Average earnings for st_ind =   10       1.52025
+Average ability for st_ind =    10      -0.37019
+ ***********
+          Av. post-tax wage rate  - edu  1    2.03092
+          Av. post-tax tot.income - edu  1    2.59295
+ ***********************************
+                            EDU group =    2
+    Av. consumption st_ind =     2       2.91381
+    Av. consumption st_ind =     3       2.84525
+    Av. consumption st_ind =     4       2.69028
+    Av. consumption st_ind =     5       2.65597
+    Av. consumption st_ind =     6       2.20125
+    Av. consumption st_ind =     7       2.19830
+    Av. consumption st_ind =     8       2.21779
+    Av. consumption st_ind =     9       0.00000
+    Av. consumption st_ind =    10       2.06529
+    Av. consumption st_ind =    11       2.04912
+ ***********
+  Av. cons., st_ind=4,  ability group =    1       2.58744
+  Av. cons., st_ind=4,  ability group =    2       2.54962
+  Av. cons., st_ind=4,  ability group =    3       2.67146
+  Av. cons., st_ind=4,  ability group =    4       2.74928
+  Av. cons., st_ind=4,  ability group =    5       2.83778
+ ***********
+    Edu=  2 Ab.Bin=  1 Av.Wage   2.28845
+    Edu=  2 Ab.Bin=  2 Av.Wage   2.48535
+    Edu=  2 Ab.Bin=  3 Av.Wage   2.68831
+    Edu=  2 Ab.Bin=  4 Av.Wage   2.87261
+    Edu=  2 Ab.Bin=  5 Av.Wage   3.12952
+ ***********
+Average earnings for st_ind =    2       2.91539
+Average ability for st_ind =     2       0.09178
+ ***********
+Average earnings for st_ind =    4       2.84344
+Average ability for st_ind =     4       0.06097
+ ***********
+Average earnings for st_ind =    6       1.82529
+Average ability for st_ind =     6       0.17930
+ ***********
+Average earnings for st_ind =    8       1.69779
+Average ability for st_ind =     8       0.11538
+ ***********
+Average earnings for st_ind =   10       1.51857
+Average ability for st_ind =    10       0.04203
+ ***********
+          Av. post-tax wage rate  - edu  2    2.71036
+          Av. post-tax tot.income - edu  2    3.31503
+ ***********************************
+                            EDU group =    3
+    Av. consumption st_ind =     2       4.77026
+    Av. consumption st_ind =     3       5.00873
+    Av. consumption st_ind =     4       4.69693
+    Av. consumption st_ind =     5       4.66131
+    Av. consumption st_ind =     6       0.00000
+    Av. consumption st_ind =     7       0.00000
+    Av. consumption st_ind =     8       0.00000
+    Av. consumption st_ind =     9       0.00000
+    Av. consumption st_ind =    10       0.00000
+    Av. consumption st_ind =    11       0.00000
+ ***********
+  Av. cons., st_ind=4,  ability group =    1       3.27725
+  Av. cons., st_ind=4,  ability group =    2       4.05293
+  Av. cons., st_ind=4,  ability group =    3       4.22571
+  Av. cons., st_ind=4,  ability group =    4       4.57402
+  Av. cons., st_ind=4,  ability group =    5       4.98628
+ ***********
+    Edu=  3 Ab.Bin=  1 Av.Wage   3.68430
+    Edu=  3 Ab.Bin=  2 Av.Wage   4.26764
+    Edu=  3 Ab.Bin=  3 Av.Wage   4.65335
+    Edu=  3 Ab.Bin=  4 Av.Wage   5.08068
+    Edu=  3 Ab.Bin=  5 Av.Wage   5.61941
+ ***********
+Average earnings for st_ind =    2       5.32641
+Average ability for st_ind =     2       0.23493
+ ***********
+Average earnings for st_ind =    4       5.52108
+Average ability for st_ind =     4       0.17855
+ ***********
+Average earnings for st_ind =    6       0.00000
+Average ability for st_ind =     6       0.00000
+ ***********
+Average earnings for st_ind =    8       0.00000
+Average ability for st_ind =     8       0.00000
+ ***********
+Average earnings for st_ind =   10       0.00000
+Average ability for st_ind =    10       0.00000
+ ***********
+          Av. post-tax wage rate  - edu  3    5.24475
+          Av. post-tax tot.income - edu  3    6.26560
+ ***********************************
+       Ability   1           in edu 1        0.86237
+       Ability   1           in edu 2        0.12592
+       Ability   1           in edu 3        0.01171
+      *************************
+       Ability   2           in edu 1        0.24832
+       Ability   2           in edu 2        0.70150
+       Ability   2           in edu 3        0.05018
+      *************************
+       Ability   3           in edu 1        0.10569
+       Ability   3           in edu 2        0.77957
+       Ability   3           in edu 3        0.11475
+      *************************
+       Ability   4           in edu 1        0.02596
+       Ability   4           in edu 2        0.73090
+       Ability   4           in edu 3        0.24314
+      *************************
+       Ability   5           in edu 1        0.00740
+       Ability   5           in edu 2        0.54267
+       Ability   5           in edu 3        0.44993
+      *************************
+       Total share in edu 1                    0.25243
+       Total share in edu 2                    0.57276
+       Total share in edu 3                    0.17482
+ ***********************************
+       Average post-tax income - workers       3.47080
+       SD   of post-tax income - workers       2.17885
+       Median post-tax income  - workers       2.89488
+       Average labour income   - workers       3.09313
+ ***********************************
+       HC(1)                                 199.29058
+       HC(2)                                 377.47762
+       HC(3)                                 178.72069
+ ***********************************
+       Av. Ability - Edu 1                    -0.33271
+       Av. Ability - Edu 2                     0.06229
+       Av. Ability - Edu 3                     0.18027
+ ***********************************
+       Total Tax Revenues                     76.04602
+       Total Transfer Expenditures             0.00000
+       Total G Expenditure                    69.18655
+ ***********************************
+       High School Tuition cost                0.03093
+       University Tuition cost                 0.30003
+       % of Col. stud.s w/ transf              0.00000
+       Av. Transf among all Coll. stud.        0.00000
+       Av. Transf among recipients only        0.00000
+ ***********************************
+       Aggregate Crime rate                    0.03338
+       Aggregate Victimization rate            0.05615
+       Share of prisoners age< 19              0.15434
+       Share of prisoners with LTHS            0.46547
+       Recidivists out of  apprehended         0.40683
+       Recidivists w/in 1 yr of release        0.07612
+       Unemployed out of apprehended           0.00000
+                  Share of crims in edu    1       0.35963
+                  Share of crims in edu    2       0.58079
+       Aggregate Prison Costs                  0.55180
+ ***********************************
+   Av. wealth and ability for Criminals and non Criminals : 
+ Crim. HS dropouts aged 1, abil.bin        1    4.0827     -0.4864
+ Crim. HS dropouts aged 1, abil.bin        2    0.7785     -0.1125
+ Crim. HS dropouts aged 1, abil.bin        3    0.1315      0.0361
+ Crim. HS dropouts aged 1, abil.bin        4    0.0000      0.1409
+ Crim. HS dropouts aged 1, abil.bin        5    0.0000      0.2406
+ Non Crim. HS dropouts aged 1, abil.bin    1    5.3765     -0.4611
+ Non Crim. HS dropouts aged 1, abil.bin    2    0.6135     -0.1083
+ Non Crim. HS dropouts aged 1, abil.bin    3    0.0797      0.0423
+ Non Crim. HS dropouts aged 1, abil.bin    4    0.0000      0.1121
+ Non Crim. HS dropouts aged 1, abil.bin    5    0.0000      0.2262
+ **********
+ Crim. HS grads aged 3, abil.bin           1    5.9647     -0.2287
+ Crim. HS grads aged 3, abil.bin           2    1.9277     -0.0931
+ Crim. HS grads aged 3, abil.bin           3    2.0623      0.0390
+ Crim. HS grads aged 3, abil.bin           4    1.2893      0.1456
+ Crim. HS grads aged 3, abil.bin           5   -0.2303      0.2606
+ Non Crim. HS grads aged 3, abil.bin       1    9.1985     -0.2559
+ Non Crim. HS grads aged 3, abil.bin       2    4.8174     -0.1014
+ Non Crim. HS grads aged 3, abil.bin       3    3.1145      0.0382
+ Non Crim. HS grads aged 3, abil.bin       4    1.5744      0.1444
+ Non Crim. HS grads aged 3, abil.bin       5   -0.1838      0.2583
+ **********
+ Crim. Coll. grads at age 6, abil.bin      1    0.0000      0.0000
+ Crim. Coll. grads at age 6, abil.bin      2    0.0000      0.0000
+ Crim. Coll. grads at age 6, abil.bin      3    0.0000      0.0000
+ Crim. Coll. grads at age 6, abil.bin      4    0.0000      0.0000
+ Crim. Coll. grads at age 6, abil.bin      5    0.0000      0.0000
+ Non Crim. Coll. grads aged 6, abil.bin    1    0.0000      0.0000
+ Non Crim. Coll. grads aged 6, abil.bin    2    0.0000      0.0000
+ Non Crim. Coll. grads aged 6, abil.bin    3    0.0000      0.0000
+ Non Crim. Coll. grads aged 6, abil.bin    4    0.0000      0.0000
+ Non Crim. Coll. grads aged 6, abil.bin    5    0.0000      0.0000
+ 	
+              Edu =    1
+     Proportion of criminals committing    1  crimes      0.5882
+     Proportion of criminals committing    2  crimes      0.0028
+     Proportion of criminals committing    3  crimes      0.0032
+     Proportion of criminals committing    4  crimes      0.4058
+              Edu =    2
+     Proportion of criminals committing    1  crimes      0.8584
+     Proportion of criminals committing    2  crimes      0.0038
+     Proportion of criminals committing    3  crimes      0.0021
+     Proportion of criminals committing    4  crimes      0.1357
+              Edu =    3
+     Proportion of criminals committing    1  crimes      1.0000
+     Proportion of criminals committing    2  crimes      0.0000
+     Proportion of criminals committing    3  crimes      0.0000
+     Proportion of criminals committing    4  crimes      0.0000
+  
+ **********************************************
+Corr.btw.crime fixed effect and ability        0.11854
+ **********************************************
+  
+ ***********************************
+                 Average ex ante welfare     -24.37507
+      Consumption eq. of ex ante welfare       3.97762

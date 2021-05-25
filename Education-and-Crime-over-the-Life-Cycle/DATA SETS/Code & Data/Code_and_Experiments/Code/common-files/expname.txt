@@ -1,0 +1,1 @@
+expgrid100\   !random30\   !uncqop_half\ 	   !uncqop_halfcol\		!expgrid100_PE1it2\ !random1\	random1\	!expgrid100\   !expgrid100\ 	   expgrid100_subPE2\ !expgrid100\ !	!expgrid100_endpri_c\	

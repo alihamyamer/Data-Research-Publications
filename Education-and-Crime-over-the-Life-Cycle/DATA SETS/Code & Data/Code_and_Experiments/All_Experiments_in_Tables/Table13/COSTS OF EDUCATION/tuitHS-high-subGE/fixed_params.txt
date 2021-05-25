@@ -1,0 +1,65 @@
+1		! endog_lab, set =1 if running model with endogenous labor choice, =0 if labor supply inelastic
+1		! geneq, set =1 if solving for the general equilibrium, =0 if running simulations with given prices
+1		! pensind, set=1 if exogen. pension replacem.rate, =0 if exogenous pension and endogenous replacement rate
+0		! natbc, set =1 if solving with natural borrowing constraint, =0 if exogenous borrowing constraint
+1.00d0		! ann, share of wealth that is annuitized
+0		! errcheck, set =1 if you want to assess the size of errors in the decision rule
+0		! zeronw, set =1 for zero net wealth (interest rates exogenous)
+1		! polcosting, =0 edu subs. with no added taxes,=1 paid thru addedlab.tax,=2 paid thru added cap. tax
+0		! y_wealth, set =1 for exogenous initial wealth distribution when young, 0 for endogenous
+1		! xinterp - set =1 for lin. interp. on consumption, 2 for poly in one chosen variable
+0		! techoice - =1 if C.D., =0 if simple,non-nested CES 
+1		! fixind - set=1 for continuous ability distribution, set =2 if discrete ability bins
+0		! tfpnorm- set=1 for updating Constanta and AVERAGE EFFICIENCY to normalize WAGE2
+0		! ucost- match enrolment rates . =1 if updated, 0 if constant
+2		! subregime-set=0 no subs, 1 random subs to 44% of college stud.
+0		! forcepol - set=0 voluntary takeup, =1 compulsory takeup for ALL treated
+0		! forceHS1 - set=0 if compulsory HS up to age 16 (standard case), =1 if compulsory HS extended by ONE year only (to 17)
+0       ! unc_qop - set=1 if uncond. wealth transf of same size as QOP at age 1
+4.415d0    !8.83d0		! propsub - tuition subsidy as a share of tuition cost
+1		! tuitquant-set=0 tuition determined as %, 1 fixed value
+0		! cbarflag - set=0 if cbar is kept constant (experiment), set =1 when cbar=cbarshare*uncavgearn (benchmark)
+0		! emmeflag -set=0 if not calibrating cbar, set =1 when calibrating cbar
+0		! constinwealth-set=0 if refresh initial wealth distribution, set =1 if wealthi_age1 constant
+1.0d0		! scalefgrid - rescales size of individual fixed effects (1 gives back the original)
+2.0d-1		! scalewage - normalized wage (wagetge2) is equal to scalewage
+ -0.835830450057983        !chi_l
+  0.000000000000000E+000   !chi_h
+  0.715642511844635        !s_alpha
+   1.14580130577087        !s_beta
+1		! prisT - Prison term lenght (periods)
+0.58d0		! prisTres - Additional fractional prison term lenght (measured in years)
+1.d-5		! CLOW - Lower bound for consumption (very small number) - 1.d-7
+-1.d2		! inada    - Lower bound for period utility, -1.d7
+1.d18		! inaderiv - Lower bound for marginal utility
+0.3153888       !cbarshare - Consumption by inmates while in prison as share of avgwage(1,4) - 0.314d0
+1.0d0		! ni
+1.5d0		! sigma
+1.d0		! psi - bequest motive a la Storesletten
+1.35730004310608       !gamma_1 
+3.38000011444092       !gamma_2 
+0.910000026226044       !eta 
+0.27d0		! taxn
+0.405d0		! taxk
+0.164d0		! pensreprate
+0		! eduyr(1)
+2		! eduyr(2)
+4		! eduyr(3)
+0.0d0		! schshare(1) share of high school goers who receive random scholarship
+0.0d0		! schshare(2) share of college goers who receive random scholarship
+0.d0		! schshare(3) not relevant
+0.36d0		!abweight(1)
+0.54d0		!abweight(2) 
+0.89d0		!abweight(3)
+0.22d0		! sh(1) - average of 1979, 1980 and 1981.
+0.41d0		! sh(2) - average of 1979, 1980 and 1981.
+0.37d0		! sh(3) - average of 1979, 1980 and 1981.
+0.15188         !corrind   - correlation between fixed effects of crime and ability, used in copula
+12		! ntar - number of target parameters
+0.4d0		! wpercent - wealth percentile used in means tested experiments
+0.05d0	! pctprice  - = % update in price during search for market clearing
+0.05d0	! pctint  - = % update in interest rate during search for market clearing
+0.20d0		! pctval  - = update in quasilinear utility (aka LEISURE) for students
+5.D-3		! = TOLERANCE (%) FOR WAGE PRICE CONVERGENCE
+5.D-3		! = TOLERANCE (%) FOR CAPITAL PRICE (INTEREST RATE) CONVERGENCE
+1.D-3		! = TOLERANCE (%) FOR HC AGGREGATES' CONVERGENCE

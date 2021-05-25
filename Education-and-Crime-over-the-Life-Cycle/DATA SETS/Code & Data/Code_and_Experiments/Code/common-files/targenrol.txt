@@ -1,0 +1,3 @@
+0.250d0	! aggregate share of workers in EDU1 - average 1977-1983
+0.576d0	! aggregate share of workers in EDU2
+0.174d0	! aggregate share of workers in EDU3

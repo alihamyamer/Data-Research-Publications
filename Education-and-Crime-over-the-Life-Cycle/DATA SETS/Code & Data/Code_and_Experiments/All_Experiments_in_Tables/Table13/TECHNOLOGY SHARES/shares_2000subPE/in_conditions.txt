@@ -1,0 +1,28 @@
+   150.753489674946         ! HC(1) 
+   361.645737218171         ! HC(2) 
+   244.184195721447         ! HC(3) 
+  4.402790992022265E-002    ! rrate 
+ -0.987999975681305         ! wmin  
+   1.00000000000000         ! bumpup
+   120.000000000000         ! wmax  
+  0.963200017452240         ! bita  
+   333.849993560696         ! prodout
+   71.2042063882503         ! Government resid. expenditure
+  0.458775719789303         ! Government Edu. subsidy expenditure
+  0.521154624583409         ! Total prison expenditure
+  0.101101805356968         ! wagetge(1)
+  0.200000000000000         ! wagetge(2)
+  0.294175669929756         ! wagetge(3)
+  0.828068727715471         ! constanta 
+   15.2459521229301         ! avwealth
+   9.82468709238465         ! medwealth
+   3.08259866346652         ! medinc
+   3.48320391202877         ! UNCavgearn
+   1.61680030100967         ! emme-offsets cbar to match tot.cost per prisoner
+  0.571245441572718         ! penv(retage)
+   3.94128471290822         ! avinc
+   4.12008998515263         ! meanstestw1
+  0.000000000000000E+000    ! S.D. of HS psychic costs of edu 
+  0.000000000000000E+000    ! S.D. of College psychic costs of edu 
+  5.191971245185972E-002    ! Victim_agg - Victimization rate 
+  

@@ -1,0 +1,37 @@
+Joint sensitivity analysis on input elasticity and borrowing limit
+Partial recalibration to approximately match wealth moments and victimization 
+
+Folder naming convention: rho_(value of rho)_bc(value of bc) where
+
+- value of rho: 0.5, bench (0.688 in the benchmark economy), 0.8
+- value of BC: half (-0.49), bench (-0.98 in the benchmark economy), dbl
+  (-1.96)
+- if no further suffix benchmark, GE or PE suffix indicates GE or PE
+  high school subsidy experiment (8.8% of avg earnings).
+
+Numbers in Table 12 are percentage changes relative to the respective benchmark
+
+1. Rho = 0.5 - Elasticity value = 2
+Code change : See “global1.f90” REAL(long), PARAMETER :: jamma = 0.5d0
+File changes: in_conditions.txt (wmin entry), fixed_params.txt
+Folders: 
+- bc = half, rho_05_bchalf (benchmark), rho_05_bchalf_GE
+- bc = bench, rho_05_bcbench (benchmark), rho_05_bcbench_GE, rho_05_bcbench_PE
+- bc = dbl;, rho_05_bcdbl (benchmark), rho_05_bcdbl_GE
+
+2. Rho = 0.688 - Elasticity value = 3.1 (Benchmark economy in table 11)
+Code change : See “global1.f90” REAL(long), PARAMETER :: jamma = 0.688d0
+File changes: in_conditions.txt (wmin entry), fixed_params.txt
+Folders: 
+- bc = half, rho_bench_bchalf (benchmark), rho_bench_bchalf_GE
+- bc = does not apply. It is in table 11. 
+- bc = dbl; rho_bench_bcdbl (benchmark), rho_bench_bcdbl_GE
+
+3. Rho = 0.8 - Elasticity value = 5
+Code change : See “global1.f90” REAL(long), PARAMETER :: jamma = 0.8d0
+File changes: in_conditions.txt (wmin entry), fixed_params.txt
+Folders: 
+- bc = half, rho_08_bchalf (benchmark), rho_08_bchalf_GE
+- bc = bench, rho_08_bcbench (benchmark), rho_08_bcbench_GE, rho_08_bcbench_PE
+- bc = dbl;, rho_08_bcdbl (benchmark), rho_08_bcdbl_GE
+
