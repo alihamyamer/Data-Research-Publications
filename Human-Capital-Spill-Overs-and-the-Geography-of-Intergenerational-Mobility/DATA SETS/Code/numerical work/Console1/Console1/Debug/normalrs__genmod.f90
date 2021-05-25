@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Feb 08 15:12:13 2016
+        MODULE NORMALRS__genmod
+          INTERFACE 
+            SUBROUTINE NORMALRS(SVBOX)
+              REAL(KIND=8) :: SVBOX(*)
+            END SUBROUTINE NORMALRS
+          END INTERFACE 
+        END MODULE NORMALRS__genmod

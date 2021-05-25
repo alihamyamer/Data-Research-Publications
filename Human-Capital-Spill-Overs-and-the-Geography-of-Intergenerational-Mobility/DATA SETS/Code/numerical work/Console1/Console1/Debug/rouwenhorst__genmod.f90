@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Feb 08 15:12:14 2016
+        MODULE ROUWENHORST__genmod
+          INTERFACE 
+            SUBROUTINE ROUWENHORST(PERS,NUM,PMAT,GRID)
+              INTEGER(KIND=4) :: NUM
+              REAL(KIND=4) :: PERS
+              REAL(KIND=4) :: PMAT(NUM,NUM)
+              REAL(KIND=4) :: GRID(NUM)
+            END SUBROUTINE ROUWENHORST
+          END INTERFACE 
+        END MODULE ROUWENHORST__genmod

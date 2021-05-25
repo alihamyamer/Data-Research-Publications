@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Feb 08 15:12:13 2016
+        MODULE ZUFALLI__genmod
+          INTERFACE 
+            SUBROUTINE ZUFALLI(SEED)
+              INTEGER(KIND=4) :: SEED
+            END SUBROUTINE ZUFALLI
+          END INTERFACE 
+        END MODULE ZUFALLI__genmod

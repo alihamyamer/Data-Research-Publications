@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Mon Feb 08 15:12:13 2016
+        MODULE ZUFALLSV__genmod
+          INTERFACE 
+            SUBROUTINE ZUFALLSV(SVBLK)
+              REAL(KIND=8) :: SVBLK(*)
+            END SUBROUTINE ZUFALLSV
+          END INTERFACE 
+        END MODULE ZUFALLSV__genmod
