@@ -1,0 +1,87 @@
+\documentclass[a4paper,dvips,12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{longtable}
+\usepackage{rotfloat}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{afterpage}
+\usepackage{graphicx}
+\usepackage{harvard}
+\usepackage{ucs}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\setcounter{MaxMatrixCols}{10}
+%TCIDATA{OutputFilter=Latex.dll}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="1">}
+%TCIDATA{BibliographyScheme=BibTeX}
+%TCIDATA{LastRevised=Wednesday, May 01, 2013 22:05:19}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}{Assumption}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\renewcommand{\baselinestretch}{1.5}
+\newcommand{\eps}{\varepsilon}
+%\hyphenation{sub-si-di-zing}
+\begin{document}
+\begin{center}
+{\Large
+Supplementary material for: \\ ``Education and Crime over the Life Cycle''}
+\bigskip
+
+Giulio Fella and Giovanni Gallipoli
+\end{center}
+\setcounter{section}{0}
+\setcounter{page}{1}
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\bigskip
+
+\section*{Some Details about Data}
+
+\subsection*{Inter-vivos transfers}
+\label{NLSY97 Appendix}
+
+The source of information on inter-vivos transfers (i.e., gifts from parents to their children) is the NLSY97. Our measures are based on data gathered and organized by Abbott, Gallipoli, Meghir and Violante, 2013, NBER working paper 18782. We use consistent information from a set of variables found in the `Income' section of the survey. Transfers measured in the Income section refer to \textit{all} income transferred, from parents or guardians to youth, that are not loans.\footnote{The College Experience section has some information about parental transfers designated for financial aid while attending a post-secondary academic institution. These measures are not fully consistent with the information in the Income section, contain many skips and, most importantly, do not cover all transfers. For this reason, in general, the college section may only be helpful to complement the better information from the Income section when specifically targeting transfers to college students.} The data are obtained through a sequence of questions which also assess whether the individual lives with both, one or none of the parents. We use the inter vivos transfer variable for youth who live with both parents, when it is available. When the youth reports not living with both parents we sum the inter-vivos transfers from both the living mother and father.\footnote{Individuals whose biological mother and father are not alive are not asked questions on transfers.} If any of these values are missing (e.g. mother's transfer) then we include only the non-missing value (e.g., the father's transfer). Observations which have missing values for all three possibilities to report inter-vivos transfers are dropped from the sample. For youth living at home we also compute the implicit transfer corresponding to the imputed rent value, which is based on the estimated average rent paid by independent youth of the same age.\footnote{For example, the value of imputed rent (in year 2000 dollars) varies from a minimum of 4,966\$ for 16 year old to a maximum of 6,615\$ for 22 year old.} We use NLSY waves from 1997 to 2003.\footnote{Data for 2004 are dropped as there are no comparable inter-vivos amounts available after that year.} This gives us an initial sample of 12,686 youths who were between age 12 and 16 in 1997. Only respondents that are part of the cross-sectional (representative) sample are kept, which leaves 6,748 individuals. We compute the cumulative transfers received between ages 16 and 22, therefore we drop observations for youth below age 16 in 1997.\footnote{We also drop 13 cases of obvious mis-reporting.}
+The final sample includes 6,346 youths and a total number of observations equal to 21,136. In the final sample roughly 9\% of individuals receive no transfer above \$50/year over the period considered, which we consider as essentially receiving zero transfers. The coefficient of variation of transfers is approximately 3/4.
+The Stata do file ``intervivos-statistics'' in the folder ``intervivos'' reads the transfer variables obtained by Abbott et al. (2014), constructs the measures of total inter-vivos transfers (in year 2000 dollars) and generates the target statics used in the paper.
+
+\subsection*{Regressions using Census data}
+The folder ``census-regression'' contains the Census data necessary to run one of our robustness experiments. In particular, the Stata do file ``incarceration-census-data'' runs the instrumental variables estimation results for the year 1980 that we report in Table 8 (Effect of Education on Incarceration) under the column ``Data''.
+In the same folder we also include the Stata do file ``incarceration-simulated-data'' which estimates the effect of high school graduation on incarceration in the simulated data, as reported in Table 8  (Effect of Education on Incarceration) under the column ``Model''.
+A description of the variables used for both estimation procedures can be found in the README.txt file.
+
+\subsection*{Regressions using NLSY data}
+The regression used to calibrate the model is hard-coded in the Fortran code and fully commented. In order to generate the targets, and to run the robustness check described in the paper, we include a folder called ``nlsy-regression'', which contains the necessary NLSY data. The file ``crime-participation-nlsy-data.do'' reports the code used to read these data and estimate the relevant regressions.
+In the same folder we include the Stata do file ``crime-participation-simulated-data.do'', which estimates the effect of high school graduation on crime participation in the simulated data (robustness check reported in Table 8).
+
+\end{document}
